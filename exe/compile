@@ -1,0 +1,5 @@
+#!/bin/sh
+
+if command -v musl-gcc > /dev/null; then compiler=musl-gcc; else compiler=gcc; fi
+$compiler -static -O3 src/main.c -o exe/tcpcat
+chmod +x exe/tcpcat

@@ -1,4 +1,0 @@
-#!/bin/sh -e
-
-mkdir -p tmp
-musl-gcc -static src/main.c -o tmp/tcpcat
