@@ -1,5 +1,5 @@
 # tcpcat
-send and receive data as is via tcp.
+send or receive data as is via tcp.
 
 supports one protocol:
 * tcp
@@ -25,6 +25,9 @@ with data on standard input:
 * establish connection to host with address and port
 * copy all data from standard input to server
 * exit
+
+# license
+gpl3+
 
 # setup
 ~~~
